@@ -1,11 +1,11 @@
-![Png](aseets/logo.png?raw=true)
+![Png](./aseets/logo.png?raw=true)
 
 [![CI Status](http://img.shields.io/travis/ikemai/FullingSwiper.svg?style=flat)](https://travis-ci.org/ikemai/FullingSwiper)
 [![Version](https://img.shields.io/cocoapods/v/FullingSwiper.svg?style=flat)](http://cocoapods.org/pods/FullingSwiper)
 [![License](https://img.shields.io/cocoapods/l/FullingSwiper.svg?style=flat)](http://cocoapods.org/pods/FullingSwiper)
 [![Platform](https://img.shields.io/cocoapods/p/FullingSwiper.svg?style=flat)](http://cocoapods.org/pods/FullingSwiper)
 
-![Gif](aseets/fullingSwiper.gif?raw=true)
+![Gif](./aseets/fullingSwiper.gif?raw=true)
 
 ## Usage
 
@@ -28,9 +28,7 @@ pod "FullingSwiper"
 
 It is the library which becomes able to return in `Stack View` in entire surface wipe.
 
-* Set
-
-** Default
+* Default Set
 
 ```swift
 if let pushView = pushViewController, navigationController = navigationController {
@@ -40,7 +38,7 @@ if let pushView = pushViewController, navigationController = navigationControlle
 }
 ```
 
-** Set handlers
+* Set Handlers
 Set 'popViewController' handler
 Set 'shouldBeginGesture' handler
 Set 'completed' handler
@@ -59,7 +57,7 @@ fullingSwiper
     }
 ```
 
-** Set paramators
+* Set Paramators
 Param hideRatio is the value that less than hideRatio cancel pop. Default is 0.2.
 Param duration is the time when (pop or push) animation. Default is 0.3.
 Param scale is under view scale when (pop or push) animation. Default is 1.
@@ -73,7 +71,7 @@ pushView.fullingSwiper
 ```
 
 
-*Unset
+* Unset
 
 ```swift
 initialize()
