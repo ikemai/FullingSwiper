@@ -1,11 +1,11 @@
-![Png](./aseets/logo.png?raw=true)
+![Png](https://github.com/ikemai/FullingSwiper/blob/master/assets/logo.png?raw=true)
 
 [![CI Status](http://img.shields.io/travis/ikemai/FullingSwiper.svg?style=flat)](https://travis-ci.org/ikemai/FullingSwiper)
 [![Version](https://img.shields.io/cocoapods/v/FullingSwiper.svg?style=flat)](http://cocoapods.org/pods/FullingSwiper)
 [![License](https://img.shields.io/cocoapods/l/FullingSwiper.svg?style=flat)](http://cocoapods.org/pods/FullingSwiper)
 [![Platform](https://img.shields.io/cocoapods/p/FullingSwiper.svg?style=flat)](http://cocoapods.org/pods/FullingSwiper)
 
-![Gif](./aseets/fullingSwiper.gif?raw=true)
+![Gif](https://github.com/ikemai/FullingSwiper/blob/master/assets/fullingSwiper.gif?raw=true)
 
 ## Usage
 
@@ -17,8 +17,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-FullingSwiper is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+FullingSwiper is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "FullingSwiper"
@@ -39,6 +38,7 @@ if let pushView = pushViewController, navigationController = navigationControlle
 ```
 
 * Set Handlers
+
 Set 'popViewController' handler
 Set 'shouldBeginGesture' handler
 Set 'completed' handler
@@ -58,6 +58,7 @@ fullingSwiper
 ```
 
 * Set Paramators
+
 Param hideRatio is the value that less than hideRatio cancel pop. Default is 0.2.
 Param duration is the time when (pop or push) animation. Default is 0.3.
 Param scale is under view scale when (pop or push) animation. Default is 1.
