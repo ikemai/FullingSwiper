@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2d379a26afc6b4bd35adf90a2a9e860f"
+build_time: [511234806, 128879000]
+inputs:
+  "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/FullingSwiper/AppDelegate.swift": [510396436, 0]
+  "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/FullingSwiper/ViewController.swift": [511234805, 0]

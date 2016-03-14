@@ -1,0 +1,10 @@
+framework module FullingSwiper {
+  umbrella header "FullingSwiper.h"
+
+  export *
+  module * { export * }
+}
+
+module FullingSwiper.Swift {
+    header "FullingSwiper-Swift.h"
+}

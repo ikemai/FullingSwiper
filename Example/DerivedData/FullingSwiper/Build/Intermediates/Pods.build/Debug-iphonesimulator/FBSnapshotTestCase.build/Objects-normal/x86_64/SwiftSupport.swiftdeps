@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo18FBSnapshotTestCase", ""]
+- ["CSo18FBSnapshotTestCase", "FBSnapshotVerifyView"]
+- ["CSo18FBSnapshotTestCase", "FBSnapshotVerifyLayer"]
+- ["CSo18FBSnapshotTestCase", "assert"]
+provides-dynamic-lookup:
+- "assert"
+- "FBSnapshotVerifyView"
+- "FBSnapshotVerifyLayer"
+depends-top-level:
+- "Bool"
+- !private "assertionFailure"
+- !private "FBSnapshotTestCaseDefaultSuffixes"
+- !private "=="
+- "StringLiteralType"
+- !private "||"
+- !private "FB_REFERENCE_IMAGE_DIR"
+- "String"
+- !private "XCTFail"
+- "UIView"
+- "CALayer"
+- !private "AnyObject"
+- !private "!"
+- !private "NSError"
+- "FBSnapshotTestCase"
+- "NSOrderedSet"
+- !private "BooleanLiteralType"
+- "UInt"
+depends-member:
+- !private ["PSs9AnyObject", "CALayer"]
+- !private ["PSs9AnyObject", "Element"]
+- !private ["PSs9AnyObject", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["PSs9AnyObject", "FBSnapshotVerifyLayer"]
+- ["PSs9AnyObject", "FBSnapshotVerifyView"]
+- ["PSs9AnyObject", "FBSnapshotVerifyViewOrLayer"]
+- !private ["PSs9AnyObject", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["PSs9AnyObject", "Generator"]
+- !private ["PSs9AnyObject", "UIView"]
+- !private ["PSs9AnyObject", "XCTFail"]
+- ["PSs9AnyObject", "assert"]
+- !private ["PSs9AnyObject", "assertionFailure"]
+- !private ["PSs9AnyObject", "compareSnapshotOfLayer"]
+- !private ["PSs9AnyObject", "compareSnapshotOfView"]
+- !private ["PSs9AnyObject", "getReferenceImageDirectoryWithDefault"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isKindOfClass"]
+- !private ["PSs9AnyObject", "recordMode"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "CALayer"]
+- !private ["PSs11CVarArgType", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["PSs11CVarArgType", "FBSnapshotVerifyLayer"]
+- ["PSs11CVarArgType", "FBSnapshotVerifyView"]
+- ["PSs11CVarArgType", "FBSnapshotVerifyViewOrLayer"]
+- !private ["PSs11CVarArgType", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["PSs11CVarArgType", "Generator"]
+- !private ["PSs11CVarArgType", "UIView"]
+- !private ["PSs11CVarArgType", "XCTFail"]
+- ["PSs11CVarArgType", "assert"]
+- !private ["PSs11CVarArgType", "assertionFailure"]
+- !private ["PSs11CVarArgType", "compareSnapshotOfLayer"]
+- !private ["PSs11CVarArgType", "compareSnapshotOfView"]
+- !private ["PSs11CVarArgType", "getReferenceImageDirectoryWithDefault"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "recordMode"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "CALayer"]
+- !private ["PSs23CustomStringConvertible", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["PSs23CustomStringConvertible", "FBSnapshotVerifyLayer"]
+- ["PSs23CustomStringConvertible", "FBSnapshotVerifyView"]
+- ["PSs23CustomStringConvertible", "FBSnapshotVerifyViewOrLayer"]
+- !private ["PSs23CustomStringConvertible", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "UIView"]
+- !private ["PSs23CustomStringConvertible", "XCTFail"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "assert"]
+- !private ["PSs23CustomStringConvertible", "assertionFailure"]
+- !private ["PSs23CustomStringConvertible", "compareSnapshotOfLayer"]
+- !private ["PSs23CustomStringConvertible", "compareSnapshotOfView"]
+- !private ["PSs23CustomStringConvertible", "getReferenceImageDirectoryWithDefault"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "recordMode"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CALayer"]
+- !private ["PSs9Equatable", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["PSs9Equatable", "FBSnapshotVerifyLayer"]
+- ["PSs9Equatable", "FBSnapshotVerifyView"]
+- ["PSs9Equatable", "FBSnapshotVerifyViewOrLayer"]
+- !private ["PSs9Equatable", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "UIView"]
+- !private ["PSs9Equatable", "XCTFail"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "assert"]
+- !private ["PSs9Equatable", "assertionFailure"]
+- !private ["PSs9Equatable", "compareSnapshotOfLayer"]
+- !private ["PSs9Equatable", "compareSnapshotOfView"]
+- !private ["PSs9Equatable", "getReferenceImageDirectoryWithDefault"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "recordMode"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo18FBSnapshotTestCase", "AnyObject"]
+- ["CSo18FBSnapshotTestCase", "Bool"]
+- ["CSo18FBSnapshotTestCase", "CALayer"]
+- !private ["CSo18FBSnapshotTestCase", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["CSo18FBSnapshotTestCase", "FBSnapshotVerifyLayer"]
+- ["CSo18FBSnapshotTestCase", "FBSnapshotVerifyView"]
+- !private ["CSo18FBSnapshotTestCase", "FBSnapshotVerifyViewOrLayer"]
+- !private ["CSo18FBSnapshotTestCase", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["CSo18FBSnapshotTestCase", "NSError"]
+- ["CSo18FBSnapshotTestCase", "NSOrderedSet"]
+- ["CSo18FBSnapshotTestCase", "String"]
+- ["CSo18FBSnapshotTestCase", "UIView"]
+- ["CSo18FBSnapshotTestCase", "UInt"]
+- !private ["CSo18FBSnapshotTestCase", "XCTFail"]
+- ["CSo18FBSnapshotTestCase", "assert"]
+- !private ["CSo18FBSnapshotTestCase", "assertionFailure"]
+- !private ["CSo18FBSnapshotTestCase", "compareSnapshotOfLayer"]
+- !private ["CSo18FBSnapshotTestCase", "compareSnapshotOfView"]
+- !private ["CSo18FBSnapshotTestCase", "getReferenceImageDirectoryWithDefault"]
+- !private ["CSo18FBSnapshotTestCase", "recordMode"]
+- !private ["Sf", "deinit"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CALayer"]
+- !private ["PSs8Hashable", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["PSs8Hashable", "FBSnapshotVerifyLayer"]
+- ["PSs8Hashable", "FBSnapshotVerifyView"]
+- ["PSs8Hashable", "FBSnapshotVerifyViewOrLayer"]
+- !private ["PSs8Hashable", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["PSs8Hashable", "Generator"]
+- !private ["PSs8Hashable", "UIView"]
+- !private ["PSs8Hashable", "XCTFail"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "assert"]
+- !private ["PSs8Hashable", "assertionFailure"]
+- !private ["PSs8Hashable", "compareSnapshotOfLayer"]
+- !private ["PSs8Hashable", "compareSnapshotOfView"]
+- !private ["PSs8Hashable", "getReferenceImageDirectoryWithDefault"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "recordMode"]
+- !private ["SQ", "Some"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Generator"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "Generator"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo17NSFastEnumeration", "Generator"]
+- !private ["C10Foundation15NSFastGenerator", "Element"]
+- !private ["PSo16NSMutableCopying", "Generator"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CALayer"]
+- !private ["CSo8NSObject", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["CSo8NSObject", "FBSnapshotVerifyLayer"]
+- ["CSo8NSObject", "FBSnapshotVerifyView"]
+- ["CSo8NSObject", "FBSnapshotVerifyViewOrLayer"]
+- !private ["CSo8NSObject", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["CSo8NSObject", "Generator"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSOrderedSet"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "UInt"]
+- !private ["CSo8NSObject", "XCTFail"]
+- ["CSo8NSObject", "assert"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- !private ["CSo8NSObject", "compareSnapshotOfLayer"]
+- !private ["CSo8NSObject", "compareSnapshotOfView"]
+- !private ["CSo8NSObject", "getReferenceImageDirectoryWithDefault"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "recordMode"]
+- !private ["PSo16NSObjectProtocol", "CALayer"]
+- !private ["PSo16NSObjectProtocol", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["PSo16NSObjectProtocol", "FBSnapshotVerifyLayer"]
+- ["PSo16NSObjectProtocol", "FBSnapshotVerifyView"]
+- ["PSo16NSObjectProtocol", "FBSnapshotVerifyViewOrLayer"]
+- !private ["PSo16NSObjectProtocol", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["PSo16NSObjectProtocol", "Generator"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "XCTFail"]
+- ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "compareSnapshotOfLayer"]
+- !private ["PSo16NSObjectProtocol", "compareSnapshotOfView"]
+- !private ["PSo16NSObjectProtocol", "getReferenceImageDirectoryWithDefault"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "recordMode"]
+- !private ["CSo12NSOrderedSet", "Generator"]
+- !private ["PSo14NSSecureCoding", "Generator"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["CSo6XCTest", "AnyObject"]
+- ["CSo6XCTest", "Bool"]
+- ["CSo6XCTest", "CALayer"]
+- !private ["CSo6XCTest", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["CSo6XCTest", "FBSnapshotVerifyLayer"]
+- ["CSo6XCTest", "FBSnapshotVerifyView"]
+- ["CSo6XCTest", "FBSnapshotVerifyViewOrLayer"]
+- !private ["CSo6XCTest", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["CSo6XCTest", "NSError"]
+- ["CSo6XCTest", "NSOrderedSet"]
+- ["CSo6XCTest", "String"]
+- ["CSo6XCTest", "UIView"]
+- ["CSo6XCTest", "UInt"]
+- !private ["CSo6XCTest", "XCTFail"]
+- ["CSo6XCTest", "assert"]
+- !private ["CSo6XCTest", "assertionFailure"]
+- !private ["CSo6XCTest", "compareSnapshotOfLayer"]
+- !private ["CSo6XCTest", "compareSnapshotOfView"]
+- !private ["CSo6XCTest", "getReferenceImageDirectoryWithDefault"]
+- !private ["CSo6XCTest", "recordMode"]
+- !private ["CSo10XCTestCase", "AnyObject"]
+- ["CSo10XCTestCase", "Bool"]
+- ["CSo10XCTestCase", "CALayer"]
+- !private ["CSo10XCTestCase", "FBSnapshotTestCaseDefaultSuffixes"]
+- ["CSo10XCTestCase", "FBSnapshotVerifyLayer"]
+- ["CSo10XCTestCase", "FBSnapshotVerifyView"]
+- ["CSo10XCTestCase", "FBSnapshotVerifyViewOrLayer"]
+- !private ["CSo10XCTestCase", "FB_REFERENCE_IMAGE_DIR"]
+- !private ["CSo10XCTestCase", "NSError"]
+- ["CSo10XCTestCase", "NSOrderedSet"]
+- ["CSo10XCTestCase", "String"]
+- ["CSo10XCTestCase", "UIView"]
+- ["CSo10XCTestCase", "UInt"]
+- !private ["CSo10XCTestCase", "XCTFail"]
+- ["CSo10XCTestCase", "assert"]
+- !private ["CSo10XCTestCase", "assertionFailure"]
+- !private ["CSo10XCTestCase", "compareSnapshotOfLayer"]
+- !private ["CSo10XCTestCase", "compareSnapshotOfView"]
+- !private ["CSo10XCTestCase", "getReferenceImageDirectoryWithDefault"]
+- !private ["CSo10XCTestCase", "recordMode"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Some"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "CSo18FBSnapshotTestCase"
+- !private "Sf"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "C10Foundation15NSFastGenerator"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo12NSOrderedSet"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs16OutputStreamType"
+- !private "PSs12SequenceType"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+- !private "isKindOfClass"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.h"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/Pods/Headers/Private/FBSnapshotTestCase/FBSnapshotTestCasePlatform.h"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.h"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/DerivedData/FullingSwiper/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSnapshotTestCase.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+interface-hash: "e4644fc59264c04f6967b4a521371432"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "e151fc2bb3b8f679ab164e9bf12fc1b9"
+build_time: [510629319, 840253000]
+inputs:
+  "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/Tests/Tests.swift": [510395638, 0]

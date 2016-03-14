@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "b3917fde4e2db4d00e6577945968c8a6"
+build_time: [510396012, 919457000]
+inputs:
+  "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/FullingSwiper/FullingSwiperViewController.swift": [510396008, 0]
+  "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/FullingSwiper/FullingSwiperTransition.swift": [510396012, 0]
+  "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/FullingSwiper/FullingSwiperUIViewControllerExtension.swift": [510396012, 0]

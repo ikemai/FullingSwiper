@@ -1,0 +1,359 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C21FullingSwiper_Example11AppDelegate"
+provides-member:
+- ["C21FullingSwiper_Example11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "application"
+- "applicationDidBecomeActive"
+- "window"
+- "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+depends-top-level:
+- !private "ViewController"
+- "UIWindow"
+- "UIApplication"
+- "NSObject"
+- "UIApplicationDelegate"
+- "AnyObject"
+- !private "UIScreen"
+- "UIResponder"
+- "UINavigationController"
+- "AppDelegate"
+- "Bool"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "UINavigationController"]
+- !private ["PSs9AnyObject", "UIScreen"]
+- !private ["PSs9AnyObject", "UIWindow"]
+- !private ["PSs9AnyObject", "ViewController"]
+- ["PSs9AnyObject", "application"]
+- ["PSs9AnyObject", "applicationDidBecomeActive"]
+- ["PSs9AnyObject", "applicationDidEnterBackground"]
+- ["PSs9AnyObject", "applicationDidFinishLaunching"]
+- ["PSs9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["PSs9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9AnyObject", "applicationSignificantTimeChange"]
+- ["PSs9AnyObject", "applicationWillEnterForeground"]
+- ["PSs9AnyObject", "applicationWillResignActive"]
+- ["PSs9AnyObject", "applicationWillTerminate"]
+- !private ["PSs9AnyObject", "bounds"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "mainScreen"]
+- !private ["PSs9AnyObject", "makeKeyAndVisible"]
+- ["PSs9AnyObject", "navigationController"]
+- !private ["PSs9AnyObject", "rootViewController"]
+- ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- ["C21FullingSwiper_Example11AppDelegate", "AnyObject"]
+- ["C21FullingSwiper_Example11AppDelegate", "Bool"]
+- ["C21FullingSwiper_Example11AppDelegate", "NSObject"]
+- ["C21FullingSwiper_Example11AppDelegate", "UIApplication"]
+- ["C21FullingSwiper_Example11AppDelegate", "UINavigationController"]
+- !private ["C21FullingSwiper_Example11AppDelegate", "UIScreen"]
+- ["C21FullingSwiper_Example11AppDelegate", "UIWindow"]
+- !private ["C21FullingSwiper_Example11AppDelegate", "ViewController"]
+- ["C21FullingSwiper_Example11AppDelegate", "application"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationDidBecomeActive"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationDidEnterBackground"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationDidFinishLaunching"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationSignificantTimeChange"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationWillEnterForeground"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationWillResignActive"]
+- ["C21FullingSwiper_Example11AppDelegate", "applicationWillTerminate"]
+- ["C21FullingSwiper_Example11AppDelegate", "deinit"]
+- ["C21FullingSwiper_Example11AppDelegate", "init"]
+- !private ["C21FullingSwiper_Example11AppDelegate", "navigationController"]
+- ["C21FullingSwiper_Example11AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "UINavigationController"]
+- !private ["PSs11CVarArgType", "UIScreen"]
+- !private ["PSs11CVarArgType", "UIWindow"]
+- !private ["PSs11CVarArgType", "ViewController"]
+- ["PSs11CVarArgType", "application"]
+- ["PSs11CVarArgType", "applicationDidBecomeActive"]
+- ["PSs11CVarArgType", "applicationDidEnterBackground"]
+- ["PSs11CVarArgType", "applicationDidFinishLaunching"]
+- ["PSs11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["PSs11CVarArgType", "applicationSignificantTimeChange"]
+- ["PSs11CVarArgType", "applicationWillEnterForeground"]
+- ["PSs11CVarArgType", "applicationWillResignActive"]
+- ["PSs11CVarArgType", "applicationWillTerminate"]
+- !private ["PSs11CVarArgType", "bounds"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "mainScreen"]
+- !private ["PSs11CVarArgType", "makeKeyAndVisible"]
+- ["PSs11CVarArgType", "navigationController"]
+- !private ["PSs11CVarArgType", "rootViewController"]
+- ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UINavigationController"]
+- !private ["PSs23CustomStringConvertible", "UIScreen"]
+- !private ["PSs23CustomStringConvertible", "UIWindow"]
+- !private ["PSs23CustomStringConvertible", "ViewController"]
+- ["PSs23CustomStringConvertible", "application"]
+- ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["PSs23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["PSs23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["PSs23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- ["PSs23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "mainScreen"]
+- !private ["PSs23CustomStringConvertible", "makeKeyAndVisible"]
+- ["PSs23CustomStringConvertible", "navigationController"]
+- !private ["PSs23CustomStringConvertible", "rootViewController"]
+- ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "UINavigationController"]
+- !private ["PSs9Equatable", "UIScreen"]
+- !private ["PSs9Equatable", "UIWindow"]
+- !private ["PSs9Equatable", "ViewController"]
+- ["PSs9Equatable", "application"]
+- ["PSs9Equatable", "applicationDidBecomeActive"]
+- ["PSs9Equatable", "applicationDidEnterBackground"]
+- ["PSs9Equatable", "applicationDidFinishLaunching"]
+- ["PSs9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["PSs9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9Equatable", "applicationSignificantTimeChange"]
+- ["PSs9Equatable", "applicationWillEnterForeground"]
+- ["PSs9Equatable", "applicationWillResignActive"]
+- ["PSs9Equatable", "applicationWillTerminate"]
+- !private ["PSs9Equatable", "bounds"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "mainScreen"]
+- !private ["PSs9Equatable", "makeKeyAndVisible"]
+- ["PSs9Equatable", "navigationController"]
+- !private ["PSs9Equatable", "rootViewController"]
+- ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "UINavigationController"]
+- !private ["PSs8Hashable", "UIScreen"]
+- !private ["PSs8Hashable", "UIWindow"]
+- !private ["PSs8Hashable", "ViewController"]
+- ["PSs8Hashable", "application"]
+- ["PSs8Hashable", "applicationDidBecomeActive"]
+- ["PSs8Hashable", "applicationDidEnterBackground"]
+- ["PSs8Hashable", "applicationDidFinishLaunching"]
+- ["PSs8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["PSs8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs8Hashable", "applicationSignificantTimeChange"]
+- ["PSs8Hashable", "applicationWillEnterForeground"]
+- ["PSs8Hashable", "applicationWillResignActive"]
+- ["PSs8Hashable", "applicationWillTerminate"]
+- !private ["PSs8Hashable", "bounds"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "mainScreen"]
+- !private ["PSs8Hashable", "makeKeyAndVisible"]
+- ["PSs8Hashable", "navigationController"]
+- !private ["PSs8Hashable", "rootViewController"]
+- ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "makeKeyAndVisible"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UINavigationController"]
+- !private ["CSo8NSObject", "UIScreen"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "ViewController"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainScreen"]
+- !private ["CSo8NSObject", "makeKeyAndVisible"]
+- ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "UINavigationController"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "UIWindow"]
+- !private ["PSo16NSObjectProtocol", "ViewController"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- !private ["PSo16NSObjectProtocol", "makeKeyAndVisible"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C21FullingSwiper_Example20SumpleViewController", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "makeKeyAndVisible"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "makeKeyAndVisible"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "makeKeyAndVisible"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "UINavigationController"]
+- !private ["PSo21UIApplicationDelegate", "UIScreen"]
+- !private ["PSo21UIApplicationDelegate", "UIWindow"]
+- !private ["PSo21UIApplicationDelegate", "ViewController"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "navigationController"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "makeKeyAndVisible"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "makeKeyAndVisible"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "makeKeyAndVisible"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["CSo22UINavigationController", "init"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UINavigationController"]
+- !private ["CSo11UIResponder", "UIScreen"]
+- ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "ViewController"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "makeKeyAndVisible"]
+- ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "makeKeyAndVisible"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "makeKeyAndVisible"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo8UIWindow", "init"]
+- !private ["CSo8UIWindow", "makeKeyAndVisible"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["C21FullingSwiper_Example14ViewController", "init"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "makeKeyAndVisible"]
+- !private ["PSs12_Reflectable", "rootViewController"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C21FullingSwiper_Example11AppDelegate"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C21FullingSwiper_Example20SumpleViewController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- !private "CSo8UIScreen"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "C21FullingSwiper_Example14ViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/DerivedData/FullingSwiper/Build/Products/Debug-iphoneos/FullingSwiper.framework/Modules/FullingSwiper.swiftmodule/arm64.swiftmodule"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/DerivedData/FullingSwiper/Build/Products/Debug-iphoneos/FullingSwiper.framework/Headers/FullingSwiper-Swift.h"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/DerivedData/FullingSwiper/Build/Products/Debug-iphoneos/FullingSwiper.framework/Headers/FullingSwiper.h"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/DerivedData/FullingSwiper/Build/Products/Debug-iphoneos/FullingSwiper.framework/Headers/FullingSwiper-umbrella.h"
+- "/Users/ikedamai/Desktop/Git/ikemai/FullingSwiper/Example/DerivedData/FullingSwiper/Build/Products/Debug-iphoneos/FullingSwiper.framework/Modules/module.modulemap"
+interface-hash: "3cd39f1570638a8ad3d570be48b6e209"

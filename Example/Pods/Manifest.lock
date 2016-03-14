@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - FullingSwiper (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FullingSwiper (from `../`)
+
+EXTERNAL SOURCES:
+  FullingSwiper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  FullingSwiper: 2e5e17db511e64fc60cbef04b8a8912d7d7ea13a
+
+COCOAPODS: 0.39.0
