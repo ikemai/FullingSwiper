@@ -4,39 +4,39 @@ provides-top-level:
 provides-nominal:
 provides-member:
 - ["CSo16UIViewController", ""]
-- ["CSo16UIViewController", "fullSwiperStack"]
+- ["CSo16UIViewController", "fullingSwiper"]
 provides-dynamic-lookup:
-- "fullSwiperStack"
+- "fullingSwiper"
 depends-top-level:
 - !private "objc_setAssociatedObject"
-- !private "objc_getAssociatedObject"
-- "StringLiteralType"
 - "fullingSwiperStackKey"
 - "UIViewController"
 - "FullingSwiperViewController"
+- "StringLiteralType"
+- !private "objc_getAssociatedObject"
 depends-member:
 - !private ["PSs9AnyObject", "FullingSwiperViewController"]
-- ["PSs9AnyObject", "fullSwiperStack"]
+- ["PSs9AnyObject", "fullingSwiper"]
 - !private ["PSs9AnyObject", "fullingSwiperStackKey"]
 - !private ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "objc_getAssociatedObject"]
 - !private ["PSs9AnyObject", "objc_setAssociatedObject"]
 - !private ["PSs11CVarArgType", "FullingSwiperViewController"]
-- ["PSs11CVarArgType", "fullSwiperStack"]
+- ["PSs11CVarArgType", "fullingSwiper"]
 - !private ["PSs11CVarArgType", "fullingSwiperStackKey"]
 - !private ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "objc_getAssociatedObject"]
 - !private ["PSs11CVarArgType", "objc_setAssociatedObject"]
 - ["PSs28CustomDebugStringConvertible", "Some"]
 - !private ["PSs23CustomStringConvertible", "FullingSwiperViewController"]
-- ["PSs23CustomStringConvertible", "fullSwiperStack"]
+- ["PSs23CustomStringConvertible", "fullingSwiper"]
 - !private ["PSs23CustomStringConvertible", "fullingSwiperStackKey"]
 - !private ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "objc_getAssociatedObject"]
 - !private ["PSs23CustomStringConvertible", "objc_setAssociatedObject"]
 - !private ["PSs9Equatable", "FullingSwiperViewController"]
 - !private ["PSs9Equatable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
-- ["PSs9Equatable", "fullSwiperStack"]
+- ["PSs9Equatable", "fullingSwiper"]
 - !private ["PSs9Equatable", "fullingSwiperStackKey"]
 - !private ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "objc_getAssociatedObject"]
@@ -44,7 +44,7 @@ depends-member:
 - !private ["C13FullingSwiper27FullingSwiperViewController", "init"]
 - !private ["PSs8Hashable", "FullingSwiperViewController"]
 - !private ["PSs8Hashable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
-- ["PSs8Hashable", "fullSwiperStack"]
+- ["PSs8Hashable", "fullingSwiper"]
 - !private ["PSs8Hashable", "fullingSwiperStackKey"]
 - !private ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "objc_getAssociatedObject"]
@@ -61,13 +61,13 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "objc_getAssociatedObject"]
 - !private ["PSo26NSExtensionRequestHandling", "objc_setAssociatedObject"]
 - ["CSo8NSObject", "FullingSwiperViewController"]
-- ["CSo8NSObject", "fullSwiperStack"]
+- ["CSo8NSObject", "fullingSwiper"]
 - !private ["CSo8NSObject", "fullingSwiperStackKey"]
 - !private ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "objc_getAssociatedObject"]
 - !private ["CSo8NSObject", "objc_setAssociatedObject"]
 - !private ["PSo16NSObjectProtocol", "FullingSwiperViewController"]
-- ["PSo16NSObjectProtocol", "fullSwiperStack"]
+- ["PSo16NSObjectProtocol", "fullingSwiper"]
 - !private ["PSo16NSObjectProtocol", "fullingSwiperStackKey"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "objc_getAssociatedObject"]
@@ -91,7 +91,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "objc_getAssociatedObject"]
 - !private ["PSo18UIFocusEnvironment", "objc_setAssociatedObject"]
 - ["CSo11UIResponder", "FullingSwiperViewController"]
-- ["CSo11UIResponder", "fullSwiperStack"]
+- ["CSo11UIResponder", "fullingSwiper"]
 - !private ["CSo11UIResponder", "fullingSwiperStackKey"]
 - !private ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "objc_getAssociatedObject"]
@@ -107,7 +107,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "objc_getAssociatedObject"]
 - !private ["PSo18UITraitEnvironment", "objc_setAssociatedObject"]
 - ["CSo16UIViewController", "FullingSwiperViewController"]
-- ["CSo16UIViewController", "fullSwiperStack"]
+- ["CSo16UIViewController", "fullingSwiper"]
 - !private ["CSo16UIViewController", "fullingSwiperStackKey"]
 - !private ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "objc_getAssociatedObject"]
@@ -151,4 +151,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "e579abda78ba7e2512a8047dca032d3c"
+interface-hash: "2427101869f836ebbae75f19196caaaa"

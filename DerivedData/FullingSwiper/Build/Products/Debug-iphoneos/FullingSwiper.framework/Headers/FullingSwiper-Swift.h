@@ -102,6 +102,7 @@ SWIFT_CLASS("_TtC13FullingSwiper27FullingSwiperViewController")
 
 /// @param completed timing is popViewController. Default is nil
 - (FullingSwiperViewController * __nonnull)setWithNavigationController:(UINavigationController * __nonnull)navigation;
+- (void)initialize;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -116,7 +117,7 @@ SWIFT_CLASS("_TtC13FullingSwiper27FullingSwiperViewController")
 /// @param: hideRatio is the value that less than hideRatio cancel pop. Default is 0.2.
 - (FullingSwiperViewController * __nonnull)hideRatio:(CGFloat)ratio;
 
-/// @param: duration is the time when (pop or push) animation. Default is 0.2.
+/// @param: duration is the time when (pop or push) animation. Default is 0.3.
 - (FullingSwiperViewController * __nonnull)animateDuration:(NSTimeInterval)duration;
 
 /// @param: scale is under view scale when (pop or push) animation. Default is 1.
@@ -138,7 +139,7 @@ SWIFT_CLASS("_TtC13FullingSwiper27FullingSwiperViewController")
 
 
 @interface UIViewController (SWIFT_EXTENSION(FullingSwiper))
-@property (nonatomic, readonly, strong) FullingSwiperViewController * __nonnull fullSwiperStack;
+@property (nonatomic, readonly, strong) FullingSwiperViewController * __nonnull fullingSwiper;
 @end
 
 #pragma clang diagnostic pop

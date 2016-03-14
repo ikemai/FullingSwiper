@@ -12,29 +12,30 @@ provides-member:
 - ["C13FullingSwiper27FullingSwiperViewController", "animateDuration"]
 - ["C13FullingSwiper27FullingSwiperViewController", "animateScale"]
 provides-dynamic-lookup:
-- "shouldBeginGesture"
-- "animateDuration"
 - "completed"
 - "beforeDelegate"
+- "animateDuration"
+- "transition"
 - "set"
+- "shouldBeginGesture"
 - "animateScale"
+- "initialize"
 - "hideRatio"
 - "poping"
-- "transition"
 depends-top-level:
-- "FullingSwiperViewController"
-- "FullingSwiperTransition"
-- "NSTimeInterval"
-- !private "StringLiteralType"
-- "UIViewController"
-- "UINavigationControllerDelegate"
-- "UIPanGestureRecognizer"
-- "BooleanLiteralType"
 - !private "??"
-- "CGFloat"
-- "Void"
+- "BooleanLiteralType"
+- "NSTimeInterval"
+- "FullingSwiperTransition"
 - "UINavigationController"
+- "UINavigationControllerDelegate"
+- "Void"
+- "CGFloat"
+- "UIPanGestureRecognizer"
+- "FullingSwiperViewController"
+- !private "StringLiteralType"
 - !private ">"
+- "UIViewController"
 depends-member:
 - !private ["PSs9AnyObject", "FullingSwiperTransition"]
 - !private ["PSs9AnyObject", "UIPanGestureRecognizer"]
@@ -47,12 +48,15 @@ depends-member:
 - !private ["PSs9AnyObject", "delegate"]
 - ["PSs9AnyObject", "hideRatio"]
 - ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "initialize"]
 - ["PSs9AnyObject", "navigation"]
 - ["PSs9AnyObject", "panGesture"]
 - !private ["PSs9AnyObject", "popHandler"]
 - !private ["PSs9AnyObject", "popViewControllerAnimated"]
 - ["PSs9AnyObject", "poping"]
+- !private ["PSs9AnyObject", "removeGesture"]
 - !private ["PSs9AnyObject", "removeGestureRecognizer"]
+- !private ["PSs9AnyObject", "removeHandlers"]
 - !private ["PSs9AnyObject", "scale"]
 - ["PSs9AnyObject", "set"]
 - ["PSs9AnyObject", "shouldBeginGesture"]
@@ -88,12 +92,15 @@ depends-member:
 - !private ["PSs11CVarArgType", "delegate"]
 - ["PSs11CVarArgType", "hideRatio"]
 - ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "initialize"]
 - ["PSs11CVarArgType", "navigation"]
 - ["PSs11CVarArgType", "panGesture"]
 - !private ["PSs11CVarArgType", "popHandler"]
 - !private ["PSs11CVarArgType", "popViewControllerAnimated"]
 - ["PSs11CVarArgType", "poping"]
+- !private ["PSs11CVarArgType", "removeGesture"]
 - !private ["PSs11CVarArgType", "removeGestureRecognizer"]
+- !private ["PSs11CVarArgType", "removeHandlers"]
 - !private ["PSs11CVarArgType", "scale"]
 - ["PSs11CVarArgType", "set"]
 - ["PSs11CVarArgType", "shouldBeginGesture"]
@@ -130,12 +137,15 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "delegate"]
 - ["PSs23CustomStringConvertible", "hideRatio"]
 - ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "initialize"]
 - ["PSs23CustomStringConvertible", "navigation"]
 - ["PSs23CustomStringConvertible", "panGesture"]
 - !private ["PSs23CustomStringConvertible", "popHandler"]
 - !private ["PSs23CustomStringConvertible", "popViewControllerAnimated"]
 - ["PSs23CustomStringConvertible", "poping"]
+- !private ["PSs23CustomStringConvertible", "removeGesture"]
 - !private ["PSs23CustomStringConvertible", "removeGestureRecognizer"]
+- !private ["PSs23CustomStringConvertible", "removeHandlers"]
 - !private ["PSs23CustomStringConvertible", "scale"]
 - ["PSs23CustomStringConvertible", "set"]
 - ["PSs23CustomStringConvertible", "shouldBeginGesture"]
@@ -157,12 +167,15 @@ depends-member:
 - !private ["PSs9Equatable", "delegate"]
 - ["PSs9Equatable", "hideRatio"]
 - ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "initialize"]
 - ["PSs9Equatable", "navigation"]
 - ["PSs9Equatable", "panGesture"]
 - !private ["PSs9Equatable", "popHandler"]
 - !private ["PSs9Equatable", "popViewControllerAnimated"]
 - ["PSs9Equatable", "poping"]
+- !private ["PSs9Equatable", "removeGesture"]
 - !private ["PSs9Equatable", "removeGestureRecognizer"]
+- !private ["PSs9Equatable", "removeHandlers"]
 - !private ["PSs9Equatable", "scale"]
 - ["PSs9Equatable", "set"]
 - ["PSs9Equatable", "shouldBeginGesture"]
@@ -179,6 +192,7 @@ depends-member:
 - !private ["C13FullingSwiper23FullingSwiperTransition", "hideRatio"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "init"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "popHandler"]
+- !private ["C13FullingSwiper23FullingSwiperTransition", "removeHandlers"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "scale"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "shouldBeginGestureHandler"]
 - ["C13FullingSwiper27FullingSwiperViewController", "CGFloat"]
@@ -197,9 +211,11 @@ depends-member:
 - ["C13FullingSwiper27FullingSwiperViewController", "deinit"]
 - ["C13FullingSwiper27FullingSwiperViewController", "hideRatio"]
 - ["C13FullingSwiper27FullingSwiperViewController", "init"]
+- ["C13FullingSwiper27FullingSwiperViewController", "initialize"]
 - !private ["C13FullingSwiper27FullingSwiperViewController", "navigation"]
 - !private ["C13FullingSwiper27FullingSwiperViewController", "panGesture"]
 - ["C13FullingSwiper27FullingSwiperViewController", "poping"]
+- !private ["C13FullingSwiper27FullingSwiperViewController", "removeGesture"]
 - ["C13FullingSwiper27FullingSwiperViewController", "set"]
 - ["C13FullingSwiper27FullingSwiperViewController", "shouldBeginGesture"]
 - ["C13FullingSwiper27FullingSwiperViewController", "transition"]
@@ -216,12 +232,15 @@ depends-member:
 - !private ["PSs8Hashable", "delegate"]
 - ["PSs8Hashable", "hideRatio"]
 - ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "initialize"]
 - ["PSs8Hashable", "navigation"]
 - ["PSs8Hashable", "panGesture"]
 - !private ["PSs8Hashable", "popHandler"]
 - !private ["PSs8Hashable", "popViewControllerAnimated"]
 - ["PSs8Hashable", "poping"]
+- !private ["PSs8Hashable", "removeGesture"]
 - !private ["PSs8Hashable", "removeGestureRecognizer"]
+- !private ["PSs8Hashable", "removeHandlers"]
 - !private ["PSs8Hashable", "scale"]
 - ["PSs8Hashable", "set"]
 - ["PSs8Hashable", "shouldBeginGesture"]
@@ -267,10 +286,12 @@ depends-member:
 - !private ["PSo8NSCoding", "delegate"]
 - ["PSo8NSCoding", "hideRatio"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "initialize"]
 - ["PSo8NSCoding", "navigation"]
 - ["PSo8NSCoding", "panGesture"]
 - !private ["PSo8NSCoding", "popViewControllerAnimated"]
 - ["PSo8NSCoding", "poping"]
+- !private ["PSo8NSCoding", "removeGesture"]
 - !private ["PSo8NSCoding", "removeGestureRecognizer"]
 - ["PSo8NSCoding", "set"]
 - ["PSo8NSCoding", "shouldBeginGesture"]
@@ -288,10 +309,12 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "delegate"]
 - ["PSo26NSExtensionRequestHandling", "hideRatio"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "initialize"]
 - ["PSo26NSExtensionRequestHandling", "navigation"]
 - ["PSo26NSExtensionRequestHandling", "panGesture"]
 - !private ["PSo26NSExtensionRequestHandling", "popViewControllerAnimated"]
 - ["PSo26NSExtensionRequestHandling", "poping"]
+- !private ["PSo26NSExtensionRequestHandling", "removeGesture"]
 - ["PSo26NSExtensionRequestHandling", "set"]
 - ["PSo26NSExtensionRequestHandling", "shouldBeginGesture"]
 - ["PSo26NSExtensionRequestHandling", "transition"]
@@ -315,12 +338,15 @@ depends-member:
 - !private ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "hideRatio"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
 - ["CSo8NSObject", "navigation"]
 - ["CSo8NSObject", "panGesture"]
 - !private ["CSo8NSObject", "popHandler"]
 - !private ["CSo8NSObject", "popViewControllerAnimated"]
 - ["CSo8NSObject", "poping"]
+- !private ["CSo8NSObject", "removeGesture"]
 - !private ["CSo8NSObject", "removeGestureRecognizer"]
+- !private ["CSo8NSObject", "removeHandlers"]
 - !private ["CSo8NSObject", "scale"]
 - ["CSo8NSObject", "set"]
 - ["CSo8NSObject", "shouldBeginGesture"]
@@ -339,12 +365,15 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "hideRatio"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initialize"]
 - ["PSo16NSObjectProtocol", "navigation"]
 - ["PSo16NSObjectProtocol", "panGesture"]
 - !private ["PSo16NSObjectProtocol", "popHandler"]
 - !private ["PSo16NSObjectProtocol", "popViewControllerAnimated"]
 - ["PSo16NSObjectProtocol", "poping"]
+- !private ["PSo16NSObjectProtocol", "removeGesture"]
 - !private ["PSo16NSObjectProtocol", "removeGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "removeHandlers"]
 - !private ["PSo16NSObjectProtocol", "scale"]
 - ["PSo16NSObjectProtocol", "set"]
 - ["PSo16NSObjectProtocol", "shouldBeginGesture"]
@@ -388,10 +417,12 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "delegate"]
 - ["PSo21UIAppearanceContainer", "hideRatio"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "initialize"]
 - ["PSo21UIAppearanceContainer", "navigation"]
 - ["PSo21UIAppearanceContainer", "panGesture"]
 - !private ["PSo21UIAppearanceContainer", "popViewControllerAnimated"]
 - ["PSo21UIAppearanceContainer", "poping"]
+- !private ["PSo21UIAppearanceContainer", "removeGesture"]
 - !private ["PSo21UIAppearanceContainer", "removeGestureRecognizer"]
 - ["PSo21UIAppearanceContainer", "set"]
 - ["PSo21UIAppearanceContainer", "shouldBeginGesture"]
@@ -409,10 +440,12 @@ depends-member:
 - !private ["PSo18UIContentContainer", "delegate"]
 - ["PSo18UIContentContainer", "hideRatio"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "initialize"]
 - ["PSo18UIContentContainer", "navigation"]
 - ["PSo18UIContentContainer", "panGesture"]
 - !private ["PSo18UIContentContainer", "popViewControllerAnimated"]
 - ["PSo18UIContentContainer", "poping"]
+- !private ["PSo18UIContentContainer", "removeGesture"]
 - ["PSo18UIContentContainer", "set"]
 - ["PSo18UIContentContainer", "shouldBeginGesture"]
 - ["PSo18UIContentContainer", "transition"]
@@ -434,10 +467,12 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "delegate"]
 - ["PSo18UIFocusEnvironment", "hideRatio"]
 - ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "initialize"]
 - ["PSo18UIFocusEnvironment", "navigation"]
 - ["PSo18UIFocusEnvironment", "panGesture"]
 - !private ["PSo18UIFocusEnvironment", "popViewControllerAnimated"]
 - ["PSo18UIFocusEnvironment", "poping"]
+- !private ["PSo18UIFocusEnvironment", "removeGesture"]
 - !private ["PSo18UIFocusEnvironment", "removeGestureRecognizer"]
 - ["PSo18UIFocusEnvironment", "set"]
 - ["PSo18UIFocusEnvironment", "shouldBeginGesture"]
@@ -452,6 +487,7 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "hideRatio"]
 - !private ["PSo27UIGestureRecognizerDelegate", "init"]
 - !private ["PSo27UIGestureRecognizerDelegate", "popHandler"]
+- !private ["PSo27UIGestureRecognizerDelegate", "removeHandlers"]
 - !private ["PSo27UIGestureRecognizerDelegate", "scale"]
 - !private ["PSo27UIGestureRecognizerDelegate", "shouldBeginGestureHandler"]
 - !private ["CSo22UINavigationController", "delegate"]
@@ -463,6 +499,7 @@ depends-member:
 - !private ["PSo30UINavigationControllerDelegate", "hideRatio"]
 - !private ["PSo30UINavigationControllerDelegate", "init"]
 - !private ["PSo30UINavigationControllerDelegate", "popHandler"]
+- !private ["PSo30UINavigationControllerDelegate", "removeHandlers"]
 - !private ["PSo30UINavigationControllerDelegate", "scale"]
 - !private ["PSo30UINavigationControllerDelegate", "shouldBeginGestureHandler"]
 - !private ["CSo22UIPanGestureRecognizer", "delegate"]
@@ -472,6 +509,7 @@ depends-member:
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "hideRatio"]
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "init"]
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "popHandler"]
+- !private ["CSo36UIPercentDrivenInteractiveTransition", "removeHandlers"]
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "scale"]
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "shouldBeginGestureHandler"]
 - ["CSo11UIResponder", "CGFloat"]
@@ -491,10 +529,12 @@ depends-member:
 - !private ["CSo11UIResponder", "delegate"]
 - ["CSo11UIResponder", "hideRatio"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initialize"]
 - ["CSo11UIResponder", "navigation"]
 - ["CSo11UIResponder", "panGesture"]
 - !private ["CSo11UIResponder", "popViewControllerAnimated"]
 - ["CSo11UIResponder", "poping"]
+- !private ["CSo11UIResponder", "removeGesture"]
 - !private ["CSo11UIResponder", "removeGestureRecognizer"]
 - ["CSo11UIResponder", "set"]
 - ["CSo11UIResponder", "shouldBeginGesture"]
@@ -511,10 +551,12 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "delegate"]
 - ["PSo16UIStateRestoring", "hideRatio"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "initialize"]
 - ["PSo16UIStateRestoring", "navigation"]
 - ["PSo16UIStateRestoring", "panGesture"]
 - !private ["PSo16UIStateRestoring", "popViewControllerAnimated"]
 - ["PSo16UIStateRestoring", "poping"]
+- !private ["PSo16UIStateRestoring", "removeGesture"]
 - ["PSo16UIStateRestoring", "set"]
 - ["PSo16UIStateRestoring", "shouldBeginGesture"]
 - ["PSo16UIStateRestoring", "transition"]
@@ -532,10 +574,12 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "delegate"]
 - ["PSo18UITraitEnvironment", "hideRatio"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "initialize"]
 - ["PSo18UITraitEnvironment", "navigation"]
 - ["PSo18UITraitEnvironment", "panGesture"]
 - !private ["PSo18UITraitEnvironment", "popViewControllerAnimated"]
 - ["PSo18UITraitEnvironment", "poping"]
+- !private ["PSo18UITraitEnvironment", "removeGesture"]
 - !private ["PSo18UITraitEnvironment", "removeGestureRecognizer"]
 - ["PSo18UITraitEnvironment", "set"]
 - ["PSo18UITraitEnvironment", "shouldBeginGesture"]
@@ -561,10 +605,12 @@ depends-member:
 - !private ["CSo16UIViewController", "delegate"]
 - ["CSo16UIViewController", "hideRatio"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "initialize"]
 - ["CSo16UIViewController", "navigation"]
 - ["CSo16UIViewController", "panGesture"]
 - !private ["CSo16UIViewController", "popViewControllerAnimated"]
 - ["CSo16UIViewController", "poping"]
+- !private ["CSo16UIViewController", "removeGesture"]
 - ["CSo16UIViewController", "set"]
 - ["CSo16UIViewController", "shouldBeginGesture"]
 - ["CSo16UIViewController", "transition"]
@@ -576,6 +622,7 @@ depends-member:
 - !private ["PSo37UIViewControllerAnimatedTransitioning", "hideRatio"]
 - !private ["PSo37UIViewControllerAnimatedTransitioning", "init"]
 - !private ["PSo37UIViewControllerAnimatedTransitioning", "popHandler"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "removeHandlers"]
 - !private ["PSo37UIViewControllerAnimatedTransitioning", "scale"]
 - !private ["PSo37UIViewControllerAnimatedTransitioning", "shouldBeginGestureHandler"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "animateDuration"]
@@ -583,6 +630,7 @@ depends-member:
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "hideRatio"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "init"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "popHandler"]
+- !private ["PSo40UIViewControllerInteractiveTransitioning", "removeHandlers"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "scale"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "shouldBeginGestureHandler"]
 - !private ["PSs10_ArrayType", "Generator"]
@@ -704,4 +752,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "1f99795b34ea231f19e13694b8ba9d8e"
+interface-hash: "80f9187c490bdd9ef01f9fd728fab7c6"

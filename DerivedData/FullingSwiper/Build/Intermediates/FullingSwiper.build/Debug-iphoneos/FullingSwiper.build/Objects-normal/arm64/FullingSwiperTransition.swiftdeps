@@ -9,58 +9,59 @@ provides-member:
 - ["VC13FullingSwiper23FullingSwiperTransition7BeforeX", ""]
 - ["C13FullingSwiper23FullingSwiperTransition", "BeforeX"]
 provides-dynamic-lookup:
-- "shouldBeginGestureHandler"
-- "transitionDuration"
-- "animateTransition"
-- "navigationController"
-- "navigationController"
-- "animateDuration"
-- "completed"
-- "scale"
-- "gestureRecognizerShouldBegin"
-- "fullSwiperStackPanGesture"
-- "popHandler"
 - "hideRatio"
+- "gestureRecognizerShouldBegin"
+- "navigationController"
+- "navigationController"
+- "scale"
+- "animateTransition"
+- "transitionDuration"
+- "popHandler"
+- "completed"
+- "fullingSwiperPanGesture"
+- "animateDuration"
+- "shouldBeginGestureHandler"
+- "removeHandlers"
 depends-top-level:
+- !private "CGAffineTransformIdentity"
 - !private "Array"
-- "UINavigationController"
+- !private "/"
+- "Bool"
+- "FullingSwiperTransition"
+- "CGFloat"
+- "BooleanLiteralType"
+- !private "CGPointMake"
 - "UINavigationControllerOperation"
+- "UIGestureRecognizerDelegate"
+- !private ">"
+- !private "!="
+- "UIPercentDrivenInteractiveTransition"
+- !private "??"
+- !private "UITransitionContextFromViewControllerKey"
+- "UIPanGestureRecognizer"
+- !private "UIView"
+- "UIViewControllerInteractiveTransitioning"
+- !private "UIColor"
+- "NSTimeInterval"
 - !private "-"
 - !private "max"
-- !private "CGAffineTransformMakeScale"
-- !private "UIView"
-- !private "min"
-- "UIPercentDrivenInteractiveTransition"
-- !private "UITransitionContextFromViewControllerKey"
-- "NSTimeInterval"
+- "UIGestureRecognizer"
+- "Void"
+- "UIViewController"
+- !private "CAGradientLayer"
 - !private ">="
-- !private "CGPointMake"
-- !private "=="
+- !private "min"
+- "UIViewControllerContextTransitioning"
+- !private "CGAffineTransformMakeTranslation"
+- !private "UITransitionContextToViewControllerKey"
+- "UINavigationController"
+- "UIViewControllerAnimatedTransitioning"
+- !private "CGAffineTransformMakeScale"
 - !private "*"
+- "UINavigationControllerDelegate"
+- !private "=="
 - !private "CGRect"
 - !private "&&"
-- "UIViewControllerInteractiveTransitioning"
-- "UIGestureRecognizerDelegate"
-- "FullingSwiperTransition"
-- "UIViewControllerAnimatedTransitioning"
-- "BooleanLiteralType"
-- !private "UIColor"
-- !private "??"
-- !private "/"
-- "UIViewController"
-- "UIPanGestureRecognizer"
-- !private "CGAffineTransformMakeTranslation"
-- !private "!="
-- !private "UITransitionContextToViewControllerKey"
-- "Bool"
-- "CGFloat"
-- "UIViewControllerContextTransitioning"
-- "Void"
-- "UINavigationControllerDelegate"
-- !private "CGAffineTransformIdentity"
-- "UIGestureRecognizer"
-- !private "CAGradientLayer"
-- !private ">"
 depends-member:
 - ["PSs9AnyObject", "BeforeX"]
 - !private ["PSs9AnyObject", "CAGradientLayer"]
@@ -75,6 +76,7 @@ depends-member:
 - !private ["PSs9AnyObject", "UITransitionContextToViewControllerKey"]
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "alpha"]
 - ["PSs9AnyObject", "animateDuration"]
 - ["PSs9AnyObject", "animateTransition"]
 - !private ["PSs9AnyObject", "animateWithDuration"]
@@ -90,7 +92,7 @@ depends-member:
 - !private ["PSs9AnyObject", "endPoint"]
 - !private ["PSs9AnyObject", "finishInteractiveTransition"]
 - !private ["PSs9AnyObject", "frame"]
-- ["PSs9AnyObject", "fullSwiperStackPanGesture"]
+- ["PSs9AnyObject", "fullingSwiperPanGesture"]
 - ["PSs9AnyObject", "gestureBeginX"]
 - ["PSs9AnyObject", "gestureRecognizer"]
 - ["PSs9AnyObject", "gestureRecognizerShouldBegin"]
@@ -111,6 +113,7 @@ depends-member:
 - ["PSs9AnyObject", "popHandler"]
 - ["PSs9AnyObject", "poping"]
 - !private ["PSs9AnyObject", "removeFromSuperview"]
+- ["PSs9AnyObject", "removeHandlers"]
 - ["PSs9AnyObject", "scale"]
 - !private ["PSs9AnyObject", "shadowView"]
 - ["PSs9AnyObject", "shouldBeginGestureHandler"]
@@ -170,6 +173,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "UITransitionContextToViewControllerKey"]
 - !private ["PSs11CVarArgType", "UIView"]
 - !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "alpha"]
 - ["PSs11CVarArgType", "animateDuration"]
 - ["PSs11CVarArgType", "animateTransition"]
 - !private ["PSs11CVarArgType", "animateWithDuration"]
@@ -185,7 +189,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "endPoint"]
 - !private ["PSs11CVarArgType", "finishInteractiveTransition"]
 - !private ["PSs11CVarArgType", "frame"]
-- ["PSs11CVarArgType", "fullSwiperStackPanGesture"]
+- ["PSs11CVarArgType", "fullingSwiperPanGesture"]
 - ["PSs11CVarArgType", "gestureBeginX"]
 - ["PSs11CVarArgType", "gestureRecognizer"]
 - ["PSs11CVarArgType", "gestureRecognizerShouldBegin"]
@@ -206,6 +210,7 @@ depends-member:
 - ["PSs11CVarArgType", "popHandler"]
 - ["PSs11CVarArgType", "poping"]
 - !private ["PSs11CVarArgType", "removeFromSuperview"]
+- ["PSs11CVarArgType", "removeHandlers"]
 - ["PSs11CVarArgType", "scale"]
 - !private ["PSs11CVarArgType", "shadowView"]
 - ["PSs11CVarArgType", "shouldBeginGestureHandler"]
@@ -235,6 +240,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "UIView"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "alpha"]
 - ["PSs23CustomStringConvertible", "animateDuration"]
 - ["PSs23CustomStringConvertible", "animateTransition"]
 - !private ["PSs23CustomStringConvertible", "animateWithDuration"]
@@ -250,7 +256,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "endPoint"]
 - !private ["PSs23CustomStringConvertible", "finishInteractiveTransition"]
 - !private ["PSs23CustomStringConvertible", "frame"]
-- ["PSs23CustomStringConvertible", "fullSwiperStackPanGesture"]
+- ["PSs23CustomStringConvertible", "fullingSwiperPanGesture"]
 - ["PSs23CustomStringConvertible", "gestureBeginX"]
 - ["PSs23CustomStringConvertible", "gestureRecognizer"]
 - ["PSs23CustomStringConvertible", "gestureRecognizerShouldBegin"]
@@ -271,6 +277,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "popHandler"]
 - ["PSs23CustomStringConvertible", "poping"]
 - !private ["PSs23CustomStringConvertible", "removeFromSuperview"]
+- ["PSs23CustomStringConvertible", "removeHandlers"]
 - ["PSs23CustomStringConvertible", "scale"]
 - !private ["PSs23CustomStringConvertible", "shadowView"]
 - ["PSs23CustomStringConvertible", "shouldBeginGestureHandler"]
@@ -306,6 +313,7 @@ depends-member:
 - !private ["PSs9Equatable", "UIView"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "alpha"]
 - ["PSs9Equatable", "animateDuration"]
 - ["PSs9Equatable", "animateTransition"]
 - !private ["PSs9Equatable", "animateWithDuration"]
@@ -321,7 +329,7 @@ depends-member:
 - !private ["PSs9Equatable", "endPoint"]
 - !private ["PSs9Equatable", "finishInteractiveTransition"]
 - !private ["PSs9Equatable", "frame"]
-- ["PSs9Equatable", "fullSwiperStackPanGesture"]
+- ["PSs9Equatable", "fullingSwiperPanGesture"]
 - ["PSs9Equatable", "gestureBeginX"]
 - ["PSs9Equatable", "gestureRecognizer"]
 - ["PSs9Equatable", "gestureRecognizerShouldBegin"]
@@ -343,6 +351,7 @@ depends-member:
 - ["PSs9Equatable", "popHandler"]
 - ["PSs9Equatable", "poping"]
 - !private ["PSs9Equatable", "removeFromSuperview"]
+- ["PSs9Equatable", "removeHandlers"]
 - ["PSs9Equatable", "scale"]
 - !private ["PSs9Equatable", "shadowView"]
 - ["PSs9Equatable", "shouldBeginGestureHandler"]
@@ -388,7 +397,7 @@ depends-member:
 - ["C13FullingSwiper23FullingSwiperTransition", "completed"]
 - ["C13FullingSwiper23FullingSwiperTransition", "deinit"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "finishInteractiveTransition"]
-- ["C13FullingSwiper23FullingSwiperTransition", "fullSwiperStackPanGesture"]
+- ["C13FullingSwiper23FullingSwiperTransition", "fullingSwiperPanGesture"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "gestureBeginX"]
 - ["C13FullingSwiper23FullingSwiperTransition", "gestureRecognizer"]
 - ["C13FullingSwiper23FullingSwiperTransition", "gestureRecognizerShouldBegin"]
@@ -403,6 +412,7 @@ depends-member:
 - !private ["C13FullingSwiper23FullingSwiperTransition", "operation"]
 - ["C13FullingSwiper23FullingSwiperTransition", "popHandler"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "poping"]
+- ["C13FullingSwiper23FullingSwiperTransition", "removeHandlers"]
 - ["C13FullingSwiper23FullingSwiperTransition", "scale"]
 - !private ["C13FullingSwiper23FullingSwiperTransition", "shadowView"]
 - ["C13FullingSwiper23FullingSwiperTransition", "shouldBeginGestureHandler"]
@@ -430,6 +440,7 @@ depends-member:
 - !private ["PSs8Hashable", "UIView"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "alpha"]
 - ["PSs8Hashable", "animateDuration"]
 - ["PSs8Hashable", "animateTransition"]
 - !private ["PSs8Hashable", "animateWithDuration"]
@@ -445,7 +456,7 @@ depends-member:
 - !private ["PSs8Hashable", "endPoint"]
 - !private ["PSs8Hashable", "finishInteractiveTransition"]
 - !private ["PSs8Hashable", "frame"]
-- ["PSs8Hashable", "fullSwiperStackPanGesture"]
+- ["PSs8Hashable", "fullingSwiperPanGesture"]
 - ["PSs8Hashable", "gestureBeginX"]
 - ["PSs8Hashable", "gestureRecognizer"]
 - ["PSs8Hashable", "gestureRecognizerShouldBegin"]
@@ -466,6 +477,7 @@ depends-member:
 - ["PSs8Hashable", "popHandler"]
 - ["PSs8Hashable", "poping"]
 - !private ["PSs8Hashable", "removeFromSuperview"]
+- ["PSs8Hashable", "removeHandlers"]
 - ["PSs8Hashable", "scale"]
 - !private ["PSs8Hashable", "shadowView"]
 - ["PSs8Hashable", "shouldBeginGestureHandler"]
@@ -483,6 +495,7 @@ depends-member:
 - !private ["PSs16MutableSliceable", "Element"]
 - !private ["PSo8NSCoding", "CGColor"]
 - !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "alpha"]
 - !private ["PSo8NSCoding", "animateWithDuration"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "blackColor"]
@@ -530,6 +543,7 @@ depends-member:
 - ["CSo8NSObject", "UIViewControllerInteractiveTransitioning"]
 - ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "alpha"]
 - ["CSo8NSObject", "animateDuration"]
 - ["CSo8NSObject", "animateTransition"]
 - !private ["CSo8NSObject", "animateWithDuration"]
@@ -545,7 +559,7 @@ depends-member:
 - !private ["CSo8NSObject", "endPoint"]
 - !private ["CSo8NSObject", "finishInteractiveTransition"]
 - !private ["CSo8NSObject", "frame"]
-- ["CSo8NSObject", "fullSwiperStackPanGesture"]
+- ["CSo8NSObject", "fullingSwiperPanGesture"]
 - ["CSo8NSObject", "gestureBeginX"]
 - ["CSo8NSObject", "gestureRecognizer"]
 - ["CSo8NSObject", "gestureRecognizerShouldBegin"]
@@ -566,6 +580,7 @@ depends-member:
 - ["CSo8NSObject", "popHandler"]
 - ["CSo8NSObject", "poping"]
 - !private ["CSo8NSObject", "removeFromSuperview"]
+- ["CSo8NSObject", "removeHandlers"]
 - ["CSo8NSObject", "scale"]
 - !private ["CSo8NSObject", "shadowView"]
 - ["CSo8NSObject", "shouldBeginGestureHandler"]
@@ -589,6 +604,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UITransitionContextToViewControllerKey"]
 - !private ["PSo16NSObjectProtocol", "UIView"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
 - ["PSo16NSObjectProtocol", "animateDuration"]
 - ["PSo16NSObjectProtocol", "animateTransition"]
 - !private ["PSo16NSObjectProtocol", "animateWithDuration"]
@@ -606,7 +622,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "endPoint"]
 - !private ["PSo16NSObjectProtocol", "finishInteractiveTransition"]
 - !private ["PSo16NSObjectProtocol", "frame"]
-- ["PSo16NSObjectProtocol", "fullSwiperStackPanGesture"]
+- ["PSo16NSObjectProtocol", "fullingSwiperPanGesture"]
 - ["PSo16NSObjectProtocol", "gestureBeginX"]
 - ["PSo16NSObjectProtocol", "gestureRecognizer"]
 - ["PSo16NSObjectProtocol", "gestureRecognizerShouldBegin"]
@@ -627,6 +643,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "popHandler"]
 - ["PSo16NSObjectProtocol", "poping"]
 - !private ["PSo16NSObjectProtocol", "removeFromSuperview"]
+- ["PSo16NSObjectProtocol", "removeHandlers"]
 - ["PSo16NSObjectProtocol", "scale"]
 - !private ["PSo16NSObjectProtocol", "shadowView"]
 - ["PSo16NSObjectProtocol", "shouldBeginGestureHandler"]
@@ -660,6 +677,7 @@ depends-member:
 - !private ["PSs12SequenceType", "Element"]
 - !private ["PSs14SetAlgebraType", "CurveLinear"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
 - !private ["PSo29UIAccessibilityIdentification", "animateWithDuration"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "bounds"]
@@ -670,6 +688,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "removeFromSuperview"]
 - !private ["PSo29UIAccessibilityIdentification", "transform"]
 - !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "alpha"]
 - !private ["PSo12UIAppearance", "animateWithDuration"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "bounds"]
@@ -680,6 +699,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "removeFromSuperview"]
 - !private ["PSo12UIAppearance", "transform"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
 - !private ["PSo21UIAppearanceContainer", "animateWithDuration"]
 - !private ["PSo21UIAppearanceContainer", "backgroundColor"]
 - !private ["PSo21UIAppearanceContainer", "bounds"]
@@ -695,6 +715,7 @@ depends-member:
 - !private ["CSo7UIColor", "colorWithAlphaComponent"]
 - !private ["PSo18UIContentContainer", "view"]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
 - !private ["PSo17UICoordinateSpace", "animateWithDuration"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
 - !private ["PSo17UICoordinateSpace", "bounds"]
@@ -705,6 +726,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "removeFromSuperview"]
 - !private ["PSo17UICoordinateSpace", "transform"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "alpha"]
 - !private ["PSo13UIDynamicItem", "animateWithDuration"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
 - !private ["PSo13UIDynamicItem", "bounds"]
@@ -715,6 +737,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "removeFromSuperview"]
 - !private ["PSo13UIDynamicItem", "transform"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
 - !private ["PSo18UIFocusEnvironment", "animateWithDuration"]
 - !private ["PSo18UIFocusEnvironment", "backgroundColor"]
 - !private ["PSo18UIFocusEnvironment", "bounds"]
@@ -846,7 +869,7 @@ depends-member:
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "cancelInteractiveTransition"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "completed"]
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "finishInteractiveTransition"]
-- ["CSo36UIPercentDrivenInteractiveTransition", "fullSwiperStackPanGesture"]
+- ["CSo36UIPercentDrivenInteractiveTransition", "fullingSwiperPanGesture"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "gestureBeginX"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "gestureRecognizer"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "gestureRecognizerShouldBegin"]
@@ -861,6 +884,7 @@ depends-member:
 - ["CSo36UIPercentDrivenInteractiveTransition", "operation"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "popHandler"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "poping"]
+- ["CSo36UIPercentDrivenInteractiveTransition", "removeHandlers"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "scale"]
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "shadowView"]
 - ["CSo36UIPercentDrivenInteractiveTransition", "shouldBeginGestureHandler"]
@@ -868,6 +892,7 @@ depends-member:
 - !private ["CSo36UIPercentDrivenInteractiveTransition", "updateInteractiveTransition"]
 - ["CSo36UIPercentDrivenInteractiveTransition", ""]
 - !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "alpha"]
 - !private ["CSo11UIResponder", "animateWithDuration"]
 - !private ["CSo11UIResponder", "backgroundColor"]
 - !private ["CSo11UIResponder", "bounds"]
@@ -880,6 +905,7 @@ depends-member:
 - !private ["CSo11UIResponder", "view"]
 - !private ["PSo16UIStateRestoring", "view"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
 - !private ["PSo18UITraitEnvironment", "animateWithDuration"]
 - !private ["PSo18UITraitEnvironment", "backgroundColor"]
 - !private ["PSo18UITraitEnvironment", "bounds"]
@@ -891,6 +917,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "transform"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "alpha"]
 - !private ["CSo6UIView", "animateWithDuration"]
 - !private ["CSo6UIView", "backgroundColor"]
 - !private ["CSo6UIView", "bounds"]
@@ -961,7 +988,7 @@ depends-member:
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "cancelInteractiveTransition"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "completed"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "finishInteractiveTransition"]
-- ["PSo40UIViewControllerInteractiveTransitioning", "fullSwiperStackPanGesture"]
+- ["PSo40UIViewControllerInteractiveTransitioning", "fullingSwiperPanGesture"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "gestureBeginX"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "gestureRecognizer"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "gestureRecognizerShouldBegin"]
@@ -976,6 +1003,7 @@ depends-member:
 - ["PSo40UIViewControllerInteractiveTransitioning", "operation"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "popHandler"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "poping"]
+- ["PSo40UIViewControllerInteractiveTransitioning", "removeHandlers"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "scale"]
 - !private ["PSo40UIViewControllerInteractiveTransitioning", "shadowView"]
 - ["PSo40UIViewControllerInteractiveTransitioning", "shouldBeginGestureHandler"]
@@ -995,6 +1023,7 @@ depends-member:
 - ["PSs12_Reflectable", "Some"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "alpha"]
 - !private ["PSs12_Reflectable", "animateWithDuration"]
 - !private ["PSs12_Reflectable", "backgroundColor"]
 - !private ["PSs12_Reflectable", "bounds"]
@@ -1091,4 +1120,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "58c62f8fd5a72679b427d0168ac6a969"
+interface-hash: "a367e75b9ada61ee8ee1d2edb71eeab2"

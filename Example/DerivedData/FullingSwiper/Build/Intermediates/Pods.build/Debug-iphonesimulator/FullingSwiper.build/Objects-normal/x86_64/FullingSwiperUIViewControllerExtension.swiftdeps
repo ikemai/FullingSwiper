@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 - "fullingSwiper"
 depends-top-level:
-- !private "objc_getAssociatedObject"
 - "StringLiteralType"
 - "fullingSwiperStackKey"
-- "FullingSwiperViewController"
 - "UIViewController"
+- "FullingSwiperViewController"
+- !private "objc_getAssociatedObject"
 - !private "objc_setAssociatedObject"
 depends-member:
 - !private ["PSs9AnyObject", "FullingSwiperViewController"]

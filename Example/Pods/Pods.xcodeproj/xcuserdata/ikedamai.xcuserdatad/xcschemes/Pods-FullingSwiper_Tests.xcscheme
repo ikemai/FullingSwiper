@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B883D4B340873B3381342DF0'
+               BlueprintIdentifier = '4FAF1F7C4E514E29DD276FD0'
                BlueprintName = 'Pods-FullingSwiper_Tests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_FullingSwiper_Tests.framework'>
