@@ -36,6 +36,12 @@ class FullingSwiperTransition: UIPercentDrivenInteractiveTransition {
         completed =  nil
         shouldBeginGestureHandler =  nil
     }
+    
+    func createGesture() -> UIPanGestureRecognizer {
+        let gesture = UIPanGestureRecognizer(target: self, action: #selector(FullingSwiperTransition.fullingSwiperPanGesture))
+        gesture.delegate = self
+        return gesture
+    }
 }
 
 // MARK: - Struct
@@ -174,12 +180,12 @@ extension FullingSwiperTransition: UIViewControllerAnimatedTransitioning {
                 if isPop {
                     overlayView?.backgroundColor = UIColor.blackColor().colorWithAlphaComponent(0)
                 }
-            }, completion: { [weak shadow, weak toView, weak fromView, weak overlayView] _ in
+            }, completion: { [weak shadow, weak toView, weak fromView, weak overlayView, weak transitionContext] _ in
                 toView?.transform = CGAffineTransformIdentity
                 fromView?.transform = CGAffineTransformIdentity
                 
-                let completed = transitionContext.transitionWasCancelled() == false
-                transitionContext.completeTransition(completed)
+                let completed = transitionContext?.transitionWasCancelled() == false
+                transitionContext?.completeTransition(completed)
                 
                 shadow?.removeFromSuperview()
                 overlayView?.removeFromSuperview()

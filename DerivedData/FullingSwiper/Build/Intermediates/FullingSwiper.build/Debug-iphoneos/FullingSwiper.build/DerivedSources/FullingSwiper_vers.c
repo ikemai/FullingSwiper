@@ -1,1 +1,0 @@
- const unsigned char FullingSwiperVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:FullingSwiper  PROJECT:FullingSwiper-1" "\n"; const double FullingSwiperVersionNumber __attribute__ ((used)) = (double)1.;

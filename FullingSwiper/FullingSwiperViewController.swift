@@ -117,10 +117,10 @@ private extension FullingSwiperViewController {
     
     func addGesture() {
         removeGesture()
-        let gesture = UIPanGestureRecognizer(target: transition, action: "fullingSwiperPanGesture:")
-        gesture.delegate = transition
-        navigation?.view.addGestureRecognizer(gesture)
-        panGesture = gesture
+        if let view = navigation?.view, gesture = transition?.createGesture() {
+            panGesture = gesture
+            view.addGestureRecognizer(gesture)
+        }
     }
     
     func removeGesture() {

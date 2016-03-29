@@ -70,7 +70,7 @@ class SumpleViewController: UIViewController {
         button.setTitleColor(bg, forState: .Normal)
         button.layer.cornerRadius = 20
         button.layer.position = CGPoint(x: view.bounds.width / 2, y: view.bounds.height / 2)
-        button.addTarget(self, action: "onClickPushButton:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: #selector(SumpleViewController.onClickPushButton), forControlEvents: .TouchUpInside)
         view.addSubview(button)
     }
     
@@ -79,7 +79,7 @@ class SumpleViewController: UIViewController {
             pushView.fullingSwiper
                 .set(navigationController: navigationController)
             .hideRatio(0.3)
-            .animateDuration(0.1)
+            .animateDuration(0.3)
             .animateScale(0.95)
             
             navigationController.pushViewController(pushView, animated: true)
