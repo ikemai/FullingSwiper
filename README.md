@@ -29,6 +29,8 @@ It is the library which becomes able to return in `Stack View` in entire surface
 
 * Default Set
 
+When you set consecutively, please set it in `viewDidLoad` not `viewWillAppear`.
+
 ```swift
 if let pushView = pushViewController, navigationController = navigationController {
     pushView.fullingSwiper
