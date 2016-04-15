@@ -23,13 +23,11 @@ FullingSwiper is available through [CocoaPods](http://cocoapods.org). To install
 pod "FullingSwiper"
 ```
 
-## Example
+# Example
 
 It is the library which becomes able to return in `Stack View` in entire surface wipe.
 
-* Default Set
-
-When you set consecutively, please set it in `viewDidLoad` not `viewWillAppear`.
+## Default Set
 
 ```swift
 if let pushView = pushViewController, navigationController = navigationController {
@@ -39,7 +37,7 @@ if let pushView = pushViewController, navigationController = navigationControlle
 }
 ```
 
-* Set Handlers
+## Set Handlers
 
 Set 'popViewController' handler
 Set 'shouldBeginGesture' handler
@@ -59,7 +57,7 @@ fullingSwiper
     }
 ```
 
-* Set Paramators
+## Set Paramators
 
 Param hideRatio is the value that less than hideRatio cancel pop. Default is 0.2.
 Param duration is the time when (pop or push) animation. Default is 0.3.
@@ -73,17 +71,37 @@ pushView.fullingSwiper
     .animateScale(0.95)
 ```
 
+# Point to be noted
+## When You set `stack view` more than two
+Please set `fullingSwiper.reset()` by all means in `viewDidAppear`
 
-* Unset
+```
+override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
 
-```swift
-initialize()
+    // ☆ Set
+    fullingSwiper.reset()
+}
 ```
 
-## Author
+## When you support iOS8
+Please do not set fullingSwiper in viewWillAppear
 
-ikemai, ikeda_mai@cyberagent.co.jp
+```
+override func viewWillAppear(animated: Bool) {
+    super.viewWillAppear(animated)
 
-## License
+    // ☆ Do not set
+    if let navigationController = navigationController {
+        fullingSwiper.set(navigationController: navigationController)
+    }
+}
+```
+
+# Author
+
+ikemai
+
+# License
 
 FullingSwiper is available under the MIT license. See the LICENSE file for more info.

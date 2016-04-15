@@ -11,12 +11,10 @@ import FullingSwiper
 
 class ViewController: SumpleViewController {
     
-    deinit {
-        print("deinit : ViewController ---------")
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Brown"
         pushViewController = RedViewController()
         addPushButton(UIColor.brownColor(), buttonColor: UIColor.whiteColor())
     }
@@ -24,12 +22,10 @@ class ViewController: SumpleViewController {
 
 class RedViewController: SumpleViewController {
     
-    deinit {
-        print("deinit : RedViewController ---------")
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "RED"
         pushViewController = BlueViewController()
         addPushButton(UIColor.redColor(), buttonColor: UIColor.whiteColor())
     }
@@ -37,12 +33,10 @@ class RedViewController: SumpleViewController {
 
 class BlueViewController: SumpleViewController {
     
-    deinit {
-        print("deinit : BlueViewController ---------")
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "BLUE"
         pushViewController = ViewController()
         addPushButton(UIColor.blueColor(), buttonColor: UIColor.whiteColor())
     }
@@ -58,6 +52,27 @@ class SumpleViewController: UIViewController {
         fullSwiperStack
         .set(navigationController: navigationController)
         */
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        /** When you support iOS8, Please do not set fullingSwiper in viewWillAppear
+        if let navigationController = navigationController {
+            fullingSwiper
+                .set(navigationController: navigationController)
+                .hideRatio(0.3)
+                .animateDuration(0.15)
+                .animateScale(0.95)
+        }
+        */
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // When You set `stack view` more than two, Please set `fullingSwiper.reset()` by all means in `viewDidAppear`
+        fullingSwiper.reset()
     }
     
     func addPushButton(bg: UIColor, buttonColor: UIColor) {
@@ -78,10 +93,15 @@ class SumpleViewController: UIViewController {
         if let pushView = pushViewController, navigationController = navigationController {
             pushView.fullingSwiper
                 .set(navigationController: navigationController)
-            .hideRatio(0.3)
-            .animateDuration(0.3)
-            .animateScale(0.95)
-            
+                .poping() { _ in
+                    print("****** Poping!")
+                }
+                .shouldBeginGesture() { _ in
+                    print("****** shouldBeginGesture!")
+                }
+                .completed() { _ in
+                    print("****** completed!")
+            }
             navigationController.pushViewController(pushView, animated: true)
         }
     }

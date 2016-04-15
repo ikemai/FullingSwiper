@@ -16,35 +16,38 @@ public class FullingSwiperViewController: UIViewController {
     weak private var navigation: UINavigationController?
     weak private var panGesture: UIPanGestureRecognizer?
     
-    deinit {
-        initialize()
-    }
-    
     /**
      @param completed timing is popViewController. Default is nil
      */
     public func set(navigationController navigation: UINavigationController) -> FullingSwiperViewController {
-        initialize()
         self.navigation = navigation
         beforeDelegate = navigation.delegate
+        print("beforeDelegate = \(beforeDelegate)")
+        print("navigation.delegate = \(navigation.delegate)")
         transition = FullingSwiperTransition()
         
-        addGesture()
+        reset()
         
         poping(nil)
         shouldBeginGesture(nil)
         completed(nil)
         
-        navigation.delegate = transition
         return self
     }
     
-    public func initialize() {
+    /**
+     When You stac view controllers more than 2, Please set `fullingSwiper.reset()` by all means in `viewDidAppear`
+    */
+    public func reset() -> FullingSwiperViewController {
+        addGesture()
+        navigation?.delegate = transition
+        return self
+    }
+    
+    public func initialize() -> FullingSwiperViewController {
         navigation?.delegate = beforeDelegate
         removeGesture()
-        beforeDelegate = nil
-        transition?.removeHandlers()
-        transition = nil
+        return self
     }
 }
 
