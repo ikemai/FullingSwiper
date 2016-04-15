@@ -38,7 +38,7 @@ class FullingSwiperTransition: UIPercentDrivenInteractiveTransition {
     }
     
     func createGesture() -> UIPanGestureRecognizer {
-        let gesture = UIPanGestureRecognizer(target: self, action: #selector(FullingSwiperTransition.fullingSwiperPanGesture))
+        let gesture = UIPanGestureRecognizer(target: self, action: "fullingSwiperPanGesture:")
         gesture.delegate = self
         return gesture
     }

@@ -85,7 +85,7 @@ class SumpleViewController: UIViewController {
         button.setTitleColor(bg, forState: .Normal)
         button.layer.cornerRadius = 20
         button.layer.position = CGPoint(x: view.bounds.width / 2, y: view.bounds.height / 2)
-        button.addTarget(self, action: #selector(SumpleViewController.onClickPushButton), forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: "onClickPushButton:", forControlEvents: .TouchUpInside)
         view.addSubview(button)
     }
     
