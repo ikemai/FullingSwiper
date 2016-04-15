@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FullingSwiper"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "FullingSwiper is the library, entire surface wipe for `UIViewController` which you did, and `pushViewController` which can return."
   s.homepage     = "https://github.com/ikemai/FullingSwiper"
   s.license      = { :type => "MIT", :file => "LICENSE" }
